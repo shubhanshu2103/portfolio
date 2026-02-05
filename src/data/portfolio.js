@@ -9,7 +9,7 @@ export const projects = [
         status: 'Active',
         featured: true,
         github: 'https://github.com/shubhanshu2103/Nexus-AI',
-        demo: null, // Add demo link if available
+        demo: null,
     },
     {
         id: 'sih-offline-ai',
@@ -20,7 +20,7 @@ export const projects = [
         status: 'Research',
         featured: true,
         github: 'https://github.com/shubhanshu2103', // Needs specific link
-        demo: null,
+        demo: null, // Add demo link if available
     },
     {
         id: 'multi-agent-research',
@@ -33,6 +33,29 @@ export const projects = [
         github: 'https://github.com/shubhanshu2103/Multi-Agent-Research-Platform',
         demo: null,
     },
+    {
+        id: 'vibe-coding-2025',
+        title: 'Vibe-Coding-2025',
+        description: 'PromptPandemic hackathon project focusing on AI-driven coding assistants.',
+        tech: ['Python', 'AI'],
+        category: 'AI & Agentic',
+        status: 'Archive',
+        featured: false,
+        github: 'https://github.com/shubhanshu2103/Vibe-Coding-2025',
+        demo: null,
+    },
+    {
+        id: 'fittrack-ai',
+        title: 'FitTrack-AI',
+        description: 'AI-powered fitness tracking application using computer vision for posture correction.',
+        tech: ['Python', 'CV', 'TensorFlow'],
+        category: 'AI & Agentic',
+        status: 'Alpha',
+        featured: false,
+        github: 'https://github.com/shubhanshu2103/FitTrack-AI',
+        demo: null,
+    },
+
 
     // [Web Architecture]
     {
@@ -81,6 +104,28 @@ export const projects = [
     },
 
     // [Core/DSA]
+    {
+        id: 'node-mysql2',
+        title: 'node-mysql2',
+        description: 'Contributions to the core MySQL driver for Node.js (Pool events).',
+        tech: ['JavaScript', 'Open Source'],
+        category: 'Core/DSA',
+        status: 'Contribution',
+        featured: false,
+        github: 'https://github.com/sidorares/node-mysql2', // Upstream repo or user fork
+        demo: null,
+    },
+    {
+        id: 'turborepo',
+        title: 'Turborepo',
+        description: 'Open source contributions to the high-performance build system.',
+        tech: ['Go', 'Rust', 'Open Source'],
+        category: 'Core/DSA',
+        status: 'Contribution',
+        featured: false,
+        github: 'https://github.com/vercel/turborepo', // Upstream repo
+        demo: null,
+    },
     {
         id: 'algo-vault',
         title: 'Algo-Vault',
