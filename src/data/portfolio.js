@@ -180,6 +180,13 @@ export const education = [
 
 export const certifications = [
     {
+        title: 'AIR 63 - BSDS Entrance Exam',
+        issuer: 'Indian Statistical Institute',
+        date: '2024',
+        description: 'Secured All India Rank 63 for BSDS course.',
+        link: '#',
+    },
+    {
         title: 'AI Agent Intensive Course',
         issuer: 'Google',
         date: 'Nov 2025',

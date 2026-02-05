@@ -2,10 +2,12 @@ import React from 'react';
 import { experience, education, certifications, professionalSummary } from '../data/portfolio';
 import GlassCard from '../components/GlassCard';
 import { FaGraduationCap, FaCertificate, FaTrophy } from 'react-icons/fa';
-import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiPython, SiDocker, SiGit } from 'react-icons/si';
+import { SiNextdotjs, SiTailwindcss, SiTypescript, SiMongodb, SiPython, SiGit } from 'react-icons/si';
 import { FaReact, FaNodeJs } from 'react-icons/fa';
 
 const About = () => {
+    console.log("About Page Mounted");
+    console.log("Data:", { experience, education, certifications });
 
     return (
         <div className="container mx-auto px-4 py-20 min-h-screen">
@@ -119,7 +121,7 @@ const About = () => {
                                 <span className="font-medium">Tailwind</span>
                             </div>
                             <div className="flex flex-col items-center gap-3 hover:text-yellow-400 transition-colors group">
-                                <FaPython size={40} className="group-hover:scale-110 transition-transform" />
+                                <SiPython size={40} className="group-hover:scale-110 transition-transform" />
                                 <span className="font-medium">Python</span>
                             </div>
                             <div className="flex flex-col items-center gap-3 hover:text-blue-600 transition-colors group">
